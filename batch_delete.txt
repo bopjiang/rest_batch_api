@@ -1,0 +1,25 @@
+--END_OF_PART
+Content-Length: 337
+Content-Type: application/http
+content-id: 1
+content-transfer-encoding: binary
+
+DELETE /users/1 HTTP/1.1
+Authorization: Bearer authorization_token
+Content-Length: 0
+Content-Type: application/json; charset=UTF-8
+
+--END_OF_PART
+Content-Length: 353
+Content-Type: application/http
+content-id: 2
+content-transfer-encoding: binary
+
+DELETE /users/2 HTTP/1.1
+Authorization: Bearer authorization_token
+Content-Length: 11
+Content-Type: application/json; charset=UTF-8
+
+{"test":1}
+
+--END_OF_PART--
